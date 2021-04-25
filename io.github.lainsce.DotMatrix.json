@@ -72,7 +72,7 @@
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
                     "branch" : "main",
-                    "commit" : "bf146106323f43c253e74dea0ca770ed137ef516"
+                    "commit" : "9a52895fcd5a906791606400db1028fa0e527854"
                 }
             ]
         },
@@ -82,8 +82,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.0.zip",
-                    "sha256" : "dac8bd1fc88055fafd8bae2661ba5364c6cd0dfbe4bca34c0758f21f11f7c487"
+                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.1.zip",
+                    "sha256" : "00f7fae82383006f683e2986448afbd7c8483ead3b279102c10a8a6c7ac51007"
                 }
             ]
         }
