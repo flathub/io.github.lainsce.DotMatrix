@@ -82,8 +82,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.1.zip",
-                    "sha256" : "00f7fae82383006f683e2986448afbd7c8483ead3b279102c10a8a6c7ac51007"
+                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.2.zip",
+                    "sha256" : "3c8e77cfb7bda729463bfafaa89122a97e3e864daec1e027f59e85e0427ae502"
                 }
             ]
         }
