@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.DotMatrix",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "41",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.DotMatrix",
     "rename-icon" : "io.github.lainsce.DotMatrix",
@@ -78,8 +78,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.4.zip",
-                    "sha256" : "4b977f128bfa48340360391f1be3908954487ff6f4452c096a71d91896015054"
+                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.0.5.zip",
+                    "sha256" : "1cc8d175dc2a7d0ca0d3d19d92f1617f4023259f45e28af800942728d1871879"
                 }
             ]
         }
