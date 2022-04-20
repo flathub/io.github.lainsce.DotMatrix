@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.DotMatrix",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.DotMatrix",
     "rename-icon" : "io.github.lainsce.DotMatrix",
@@ -28,59 +28,13 @@
     ],
     "modules" : [
         {
-            "name": "libsass",
-            "sources": [
-                {
-                    "type" : "archive",
-                    "url" : "https://github.com/sass/libsass/archive/3.6.4.tar.gz",
-                    "sha256": "f9484d9a6df60576e791566eab2f757a97fd414fce01dd41fc0a693ea5db2889"
-                },
-                {
-                    "type" : "script",
-                    "dest-filename" : "autogen.sh",
-                    "commands" : [ "autoreconf -si" ]
-                }
-            ]
-        },
-        {
-            "name": "sassc",
-            "sources": [
-                {
-                    "type" : "archive",
-                    "url" : "https://github.com/sass/sassc/archive/3.6.1.tar.gz",
-                    "sha256": "8cee391c49a102b4464f86fc40c4ceac3a2ada52a89c4c933d8348e3e4542a60"
-                },
-                {
-                    "type" : "script",
-                    "dest-filename" : "autogen.sh",
-                    "commands" : [ "autoreconf -si" ]
-                }
-            ]
-        },
-        {
-            "name" : "libadwaita",
-            "buildsystem": "meson",
-            "config-opts" : [
-                "-Dvapi=true",
-                "-Dexamples=false",
-                "-Dtests=false"
-            ],
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/GNOME/libadwaita.git",
-                    "commit" : "071144f8fb2fcfa65af84917e8619422a7d06c42"
-                }
-            ]
-        },
-        {
             "name" : "dot-matrix",
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.1.2.zip",
-                    "sha256" : "86aed35e80a4722f7d04888b2dc11e8f590a1e59ed0b919b498b95265a0341e8"
+                    "url" : "https://github.com/lainsce/dot-matrix/archive/3.2.0.zip",
+                    "sha256" : "fdfd15b0764a1ecdbc72d8f96dd93c658a672bd7f34abc23c4f0136a522d3b60"
                 }
             ]
         }
