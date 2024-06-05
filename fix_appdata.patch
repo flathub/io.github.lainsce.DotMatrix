@@ -1,0 +1,30 @@
+From 1e843d2d784cc546b8049bfc255869c5cee04221 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 5 Jun 2024 22:11:03 +0300
+Subject: [PATCH] appdata: Update appdata
+
+- Fix appdata papercuts
+---
+ data/io.github.lainsce.DotMatrix.metainfo.xml.in | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/data/io.github.lainsce.DotMatrix.metainfo.xml.in b/data/io.github.lainsce.DotMatrix.metainfo.xml.in
+index 073c598..4f2efa8 100644
+--- a/data/io.github.lainsce.DotMatrix.metainfo.xml.in
++++ b/data/io.github.lainsce.DotMatrix.metainfo.xml.in
+@@ -22,10 +22,11 @@
+       <kudo>HiDpiIcon</kudo>
+     </kudos>
+     <developer_name translatable="no">Lains</developer_name>
++    <launchable type="desktop-id">io.github.lainsce.DotMatrix.desktop</launchable>
+     <url type="homepage">https://github.com/lainsce/dot-matrix/</url>
+-    <url type="donation">https://ko-fi.com/lainsce/</url>
+     <url type="bugtracker">https://github.com/lainsce/dot-matrix/issues</url>
+     <url type="donation">https://www.patreon.com/lainsce/</url>
++    <url type="vcs-browser">https://github.com/lainsce/dot-matrix/</url>
+     <url type="translate">https://github.com/lainsce/dot-matrix/blob/main/po/README.md</url>
+     <screenshots>
+         <screenshot type="default">
+--
+libgit2 1.7.2
+
